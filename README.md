@@ -5,7 +5,8 @@ Este proyecto implementa un analizador sintáctico para expresiones aritméticas
 **Estructura del Código**
 
 1. **Definición de la Gramática:**
-Se utiliza una gramática de contexto libre para definir las reglas sintácticas de expresiones aritméticas. La gramática permite operaciones de suma (+), resta (-), multiplicación (*), y división (/). También permite variables representadas por letras (a - z) y números (0 - 9).
+Se utiliza una gramática de contexto libre para definir las reglas sintácticas de expresiones aritméticas. La gramática permite operaciones de suma (+), resta (-), multiplicación (*), y división (/). 
+También permite variables representadas por letras (a - z) y números (0 - 9).
 
 2. **Expresión Objetivo:**
 La expresión que se desea analizar debe ingresarse como una cadena y dividirse en tokens (elementos) separados por espacios. En este ejemplo, se analiza la expresión "4 + ( a - b ) * x".
@@ -16,9 +17,12 @@ Se utiliza ChartParser de NLTK, que toma la gramática definida y la usa para an
 4. **Generación del Árbol de Derivación:**
 Una vez que la expresión se ha analizado, el programa genera el árbol sintáctico y lo muestra en dos formas:
 
-En consola, con una representación estructurada del árbol.
-En una ventana gráfica, mostrando el árbol de derivación completo.
-Requisitos
+
+- En consola, con una representación estructurada del árbol.
+- En una ventana gráfica, mostrando el árbol de derivación completo.
+
+
+**Requisitos**
 Para ejecutar este código, necesita instalar NLTK:
 
 
