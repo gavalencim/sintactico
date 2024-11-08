@@ -1,4 +1,5 @@
-Analizador Sintáctico con NLTK y ChartParser
+**Analizador Sintáctico con NLTK y ChartParser**
+
 Este proyecto implementa un analizador sintáctico para expresiones aritméticas básicas utilizando la biblioteca Natural Language Toolkit (NLTK) en Python. Emplea una gramática de contexto libre (CFG) y el parser ChartParser para analizar y representar visualmente el árbol sintáctico de una expresión ingresada.
 
 Estructura del Código
