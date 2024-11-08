@@ -22,8 +22,9 @@ Requisitos
 Para ejecutar este código, necesita instalar NLTK:
 
 
-**pip install nltk
-Uso**
+**pip install nltk**
+
+**Uso**
 Simplemente ejecute el script para ver el árbol de derivación de la expresión definida. Puedes cambiar la expresión objetivo para analizar otras expresiones aritméticas que cumplan con las reglas de la gramática.
 
 **Ejemplo de Salida**
