@@ -2,9 +2,9 @@
 
 Este proyecto implementa un analizador sintáctico para expresiones aritméticas básicas utilizando la biblioteca Natural Language Toolkit (NLTK) en Python. Emplea una gramática de contexto libre (CFG) y el parser ChartParser para analizar y representar visualmente el árbol sintáctico de una expresión ingresada.
 
-**Estructura del Código
+**Estructura del Código**
 
-1. Definición de la Gramática:**
+1. **Definición de la Gramática:**
 Se utiliza una gramática de contexto libre para definir las reglas sintácticas de expresiones aritméticas. La gramática permite operaciones de suma (+), resta (-), multiplicación (*), y división (/). También permite variables representadas por letras (a - z) y números (0 - 9).
 
 2. **Expresión Objetivo:**
